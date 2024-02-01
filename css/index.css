@@ -1,0 +1,37 @@
+.top_content_class .midle-img {
+  width: 100%;
+  min-height: 80vh;
+}
+
+.top_content_class .midle-img_phone {
+  width: 100vw;
+  height: 90vh;
+}
+
+
+.logo_class {
+  height: 45px
+}
+
+.anim-center_logo {
+  opacity: 0; /* 初期状態を透明に設定 */
+  position: absolute;
+  width: 300px !important;
+  height: 300px !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.anim-center_logo.fadein.is-animated {
+  animation: fadeIn 5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
