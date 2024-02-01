@@ -1,0 +1,10 @@
+.my_bar_coler {
+    background-color: #your_color; /* Replace with your desired background color */
+}
+
+.title_class {
+  font-family: 'Playfair Display', serif;
+  font-size: 46px;
+  color: cadetblue;
+  letter-spacing: 9.5px;
+}

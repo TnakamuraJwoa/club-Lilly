@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Your Bootstrap Project</title>
+    <title>あなたのBootstrapプロジェクト</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Font Awesome (Optional) -->
+    <!-- Font Awesome（オプション） -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <!-- Bootstrap JS and Popper.js -->
+
+    <!-- Bootstrap JSとPopper.js（1つのバージョンのみを含めます） -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQueryとPopper.js（1つのバージョンのみを含めます） -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
     <!-- mee -->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/index.css" rel="stylesheet" />
@@ -20,7 +26,7 @@
     <nav class="navbar navbar-light bg-light">
       <div class="container-fluid">
         <!-- ロゴ -->
-        <a class="navbar-brand" href="#">ロゴ</a>
+        <a class="navbar-brand" href="#"><img class="logo_class" src=".\img\Lilly_Yoko_kakou-2.png" alt=""></a>
 
         <!-- トグルボタン -->
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,5 +72,61 @@
         </div>
         <!-- <video class="fh5co-2col to-animate-2" poster="./images/ponzo/285.jpg" src="C:\work\Lili_html\Lili\main\img\50slow.mp4" preload="auto" role="presentation" autoplay  muted playsinline preload="metadata" loop="" tabindex="-1"></video> -->
     </div>
+    <!-- photo-->
+    <section class="bg-light py-5 border-bottom">
+        <div class="container px-5 my-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bolder title_class">PHOTO</h2>
+                <p class="lead mb-0">店内写真</p>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="container mt-5">
+                  <div id="photoCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="d-flex">
+                          <img src=".\img\room_photo\interior_2.jpg" class="w-50 p-3" alt="写真1">
+                          <img src=".\img\room_photo\interior_3.jpg" class="w-50 p-3" alt="写真2">
+                          <img src=".\img\room_photo\interior_5.jpg" class="w-50 p-3" alt="写真2">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="d-flex">
+                          <img src=".\img\room_photo\interior_6.jpg" class="w-50 p-3" alt="写真2">
+                          <img src=".\img\room_photo\interior_7.jpg" class="w-50 p-3" alt="写真2">
+                          <!-- ここにさらに写真の w-50 クラスを持つ img タグを追加 -->
+                        </div>
+                      </div>
+                      <!-- ここにさらに写真のcarousel-itemを追加 -->
+                    </div>
+                    <a class="carousel-control-prev" href="#photoCarousel" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">前へ</span>
+                    </a>
+                    <a class="carousel-control-next" href="#photoCarousel" role="button" data-slide="next" id="nextButton">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">次へ</span>
+                    </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+      $(document).ready(function(){
+        // 自動スクロールを無効にする
+        $("#photoCarousel").carousel({
+          interval: false
+        });
+
+        // 次へボタンがクリックされたときに手動でスライドする
+        $("#nextButton").click(function(){
+          $("#photoCarousel").carousel("next");
+        });
+      });
+    </script>
 </body>
 </html>
