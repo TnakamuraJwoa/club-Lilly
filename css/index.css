@@ -1,3 +1,26 @@
+.offcanvas-title {
+  padding: 0.5em 0 0;
+  margin-bottom: 0;
+  line-height: 1.65;
+  font-size: 9px;
+  color: darkkhaki;
+}
+
+iframe {
+  width: 450px;
+}
+
+@media screen and (max-width: 575px) {
+  iframe {
+    width: 70vw
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  iframe {
+    width: 380px;
+  }
+}
 .offcanvas-header {
   background-color: ivory;
 }
