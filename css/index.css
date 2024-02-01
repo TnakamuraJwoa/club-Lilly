@@ -35,3 +35,23 @@
     opacity: 1;
   }
 }
+
+.top-img-Class {
+    animation: hogehoge 16s infinite;
+}
+
+
+@keyframes hogehoge {
+	10% {
+    filter: brightness(110%);
+  }
+	15% {
+    filter: brightness(130%);
+  }
+  35% {
+    filter: brightness(105%);
+  }
+	100% {
+		filter: brightness(85%);;
+  }
+  }

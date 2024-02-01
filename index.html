@@ -61,16 +61,17 @@
     <header class="bg-dark">
     </header>
     <div class="top_content_class">
-        <img class="anim-center_logo fadein is-animated" src=".\img\Lilly_Default_cut-remove.png" alt="Center Logo">
+
         <!-- 画面サイズがスマートフォン以下の場合 -->
         <div class="col-12 d-block d-sm-none">
-            <img class="midle-img_phone d-sm-none" src=".\img\interior_5_phone.jpg" alt="">
+            <img class="top-img-Class midle-img_phone d-sm-none" src=".\img\interior_5_phone.jpg" alt="">
         </div>
         <!-- 画面サイズがタブレット以上の場合 -->
         <div class="col-12 d-none d-sm-block">
-            <img class="midle-img d-sm-block" src=".\img\interior_5.jpg" alt="">
+            <img class="top-img-Class midle-img d-sm-block" src=".\img\interior_5.jpg" alt="">
         </div>
-        <!-- <video class="fh5co-2col to-animate-2" poster="./images/ponzo/285.jpg" src="C:\work\Lili_html\Lili\main\img\50slow.mp4" preload="auto" role="presentation" autoplay  muted playsinline preload="metadata" loop="" tabindex="-1"></video> -->
+        <!-- lOGO -->
+        <img class="anim-center_logo fadein is-animated" src=".\img\Lilly_Default_cut-remove.png" alt="Center Logo">
     </div>
     <!-- photo-->
     <section class="bg-light py-5 border-bottom">
@@ -79,21 +80,28 @@
                 <h2 class="fw-bolder title_class">PHOTO</h2>
                 <p class="lead mb-0">店内写真</p>
             </div>
-            <div class="row gx-5 justify-content-center">
-                <div class="container mt-5">
+            <div class="row justify-content-center">
+                <!-- phone-->
+                <div class="container mt-1 col-12 d-block d-sm-none">
+                    <img class="w-100 mt-3" src=".\img\room_photo\interior_2.jpg" alt="写真1">
+                    <img class="w-100 mt-3" src=".\img\room_photo\interior_3.jpg" alt="写真2">
+                    <img class="w-100 mt-3" src=".\img\room_photo\interior_5.jpg" alt="写真3">
+                </div>
+                <!-- pc -->
+                <div class="container mt-5 col-12 d-none d-sm-block">
                   <div id="photoCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <div class="d-flex">
-                          <img src=".\img\room_photo\interior_2.jpg" class="w-50 p-3" alt="写真1">
-                          <img src=".\img\room_photo\interior_3.jpg" class="w-50 p-3" alt="写真2">
-                          <img src=".\img\room_photo\interior_5.jpg" class="w-50 p-3" alt="写真2">
+                          <img class="w-50 p-3" src=".\img\room_photo\interior_2.jpg" alt="写真1">
+                          <img class="w-50 p-3" src=".\img\room_photo\interior_3.jpg" alt="写真2">
+                          <img class="w-50 p-3" src=".\img\room_photo\interior_5.jpg" alt="写真3">
                         </div>
                       </div>
                       <div class="carousel-item">
                         <div class="d-flex">
-                          <img src=".\img\room_photo\interior_6.jpg" class="w-50 p-3" alt="写真2">
-                          <img src=".\img\room_photo\interior_7.jpg" class="w-50 p-3" alt="写真2">
+                          <img src=".\img\room_photo\interior_6.jpg" class="w-50 p-3" alt="写真4">
+                          <img src=".\img\room_photo\interior_7.jpg" class="w-50 p-3" alt="写真5">
                           <!-- ここにさらに写真の w-50 クラスを持つ img タグを追加 -->
                         </div>
                       </div>
