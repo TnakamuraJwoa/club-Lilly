@@ -18,6 +18,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <!-- Lightbox JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
     <!-- mee -->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/index.css" rel="stylesheet" />
@@ -87,9 +92,15 @@
             <div class="row justify-content-center">
                 <!-- phone-->
                 <div class="container mt-1 col-12 d-block d-sm-none">
-                    <img class="w-100 mt-3" src=".\img\room_photo\interior_2.jpg" alt="写真1">
-                    <img class="w-100 mt-3" src=".\img\room_photo\interior_3.jpg" alt="写真2">
-                    <img class="w-100 mt-3" src=".\img\room_photo\interior_5.jpg" alt="写真3">
+                    <a href=".\img\room_photo\interior_2.jpg" data-lightbox="gallery" data-title="写真1">
+                        <img class="w-100 mt-3" src=".\img\room_photo\interior_2.jpg" alt="写真1">
+                    </a>
+                    <a href=".\img\room_photo\interior_3.jpg" data-lightbox="gallery" data-title="写真2">
+                        <img class="w-100 mt-3" src=".\img\room_photo\interior_3.jpg" alt="写真2">
+                    </a>
+                    <a href=".\img\room_photo\interior_5.jpg" data-lightbox="gallery" data-title="写真3">
+                        <img class="w-100 mt-3" src=".\img\room_photo\interior_5.jpg" alt="写真3">
+                    </a>
                 </div>
                 <!-- pc -->
                 <div class="container mt-5 col-12 d-none d-sm-block">
@@ -171,7 +182,13 @@
         <div class="container px-5"><p class="m-0 text-center">Copyright &copy; CLUB Lilly 2024</p></div>
     </footer>
 
-
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'alwaysShowNavOnTouchDevices': true
+        });
+    </script>
 
     <script>
       $(document).ready(function(){
