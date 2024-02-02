@@ -29,49 +29,10 @@
     <script src="js/scripts.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-light bg-light">
-      <div class="container-fluid">
-        <!-- ロゴ -->
-        <a class="navbar-brand" href="#"><img class="logo_class" src=".\img\Lilly_Yoko_kakou-2.png" alt=""></a>
-
-        <!-- トグルボタン -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- オフキャンバス -->
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ラグジュアリーな空間</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-                <h3 class="">ホーム</h3>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SYSTEM</a>
-                <h3 class="">システム</h3>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">PHOTO</a>
-                <h3 class="">店内写真</h3>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CAST RECRUIT</a>
-                <h3 class="">求人</h3>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <nav id="navi-content" class="navbar navbar-light bg-light"></nav>
     <header class="bg-dark">
     </header>
     <div class="top_content_class">
-
         <!-- 画面サイズがスマートフォン以下の場合 -->
         <div class="col-12 d-block d-sm-none">
             <img class="top-img-Class midle-img_phone d-sm-none" src=".\img\interior_5_phone.jpg" alt="">
@@ -158,32 +119,10 @@
             </div>
         </div>
     </section>
-    <!-- Map section-->
-    <section class="py-2 border-bottom">
-        <div class="container">
-            <iframe id="access-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12959.687042895386!2d139.57295306977542!3d35.70354290000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ef13be52120b%3A0x73c7593216c954ed!2zQ2x1YiBMaWxpeSAo5ZCJ56Wl5a-6IOOCreODo-ODkOOCr-ODqSDjg6rjg6op!5e0!3m2!1sja!2sjp!4v1706235954853!5m2!1sja!2sjp" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-    </section>
-    <!-- Contact section-->
-    <section class="bg-light py-5">
-        <div class="container px-5 my-5 px-5">
-            <div class="text-center mb-5">
-                <!-- <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div> -->
-                <h2 class="fw-bolder title_class">Contact</h2>
-                <p class="lead mt-3 sub-title">お問い合わせは<wbr>【公式】Lineからお願い致します</p>
-                <!--本番-->
-                <div class="mt-5">
-                    <a id="line-button" href="https://lin.ee/gZ4OQ8I"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="40px" border="0"></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Footer-->
-    <footer class="py-5 my_bar_coler">
-        <div class="container px-5"><p class="m-0 text-center">Copyright &copy; CLUB Lilly 2024</p></div>
-    </footer>
+    <div id="fotter-content">
+    </div>
 
-
+    <script src="./js/common.js"></script>
     <script>
       $(document).ready(function(){
         // 自動スクロールを無効にする
