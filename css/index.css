@@ -6,6 +6,14 @@
   color: darkkhaki;
 }
 
+
+@media screen and (max-width: 575px) {
+  .sub-title {
+    font-size: 0.85rem;
+  }
+}
+
+
 .instagram-media {
   width: 450px;
 }

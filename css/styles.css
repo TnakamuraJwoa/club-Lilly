@@ -8,3 +8,10 @@
   color: cadetblue;
   letter-spacing: 9.5px;
 }
+
+
+@media screen and (max-width: 575px) {
+  .title_class {
+    font-size: 35px;
+  }
+}
