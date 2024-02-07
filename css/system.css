@@ -1,0 +1,55 @@
+.container {
+  display: flow-root;
+}
+
+.price_list li {
+  width: calc((100% / 2) - 1%);
+  float: left;
+  margin: 0 2% 2% 0;
+}
+
+.li-right-class {
+  margin-right: 0 !important;
+}
+
+.pl_title {
+    width: 50%;
+    text-align: center !important;
+    padding-right: 0 !important;
+}
+
+.pl_text {
+    width: 50%;
+    text-align: center !important;
+    padding-right: 0 !important;
+}
+
+
+.price_list p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid bisque;
+}
+
+.price_list h3 {
+    background: rgba(255,255,255,0.15);
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+ul, ol, nav {
+    list-style: none;
+    overflow: hidden;
+}
+
+.price_list h3 {
+    background-color: rgba(244, 164, 96, 0.5);
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
