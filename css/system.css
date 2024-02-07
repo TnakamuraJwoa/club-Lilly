@@ -53,3 +53,28 @@ ul, ol, nav {
     font-weight: bold;
     font-size: 14px;
 }
+
+.shopBox > p {
+    padding: 10px;
+    color: #666; /* テキストの色を薄めのグレーに設定 */
+    font-family: "Helvetica Neue", Arial, sans-serif; /* 高級感のあるフォントを指定 */
+    font-size: 16px; /* テキストのサイズを設定（必要に応じて調整） */
+    font-weight: 300; /* テキストの太さを薄くする */
+    line-height: 1.5; /* 行の高さを設定 */
+}
+
+.subtitle {
+  text-align: center;
+  color: black !important;
+}
+
+.sopBox-text {
+  font-size: small !important;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid #a0752a;
+}

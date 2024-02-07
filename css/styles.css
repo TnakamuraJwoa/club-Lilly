@@ -8,7 +8,7 @@
 
 .title_class {
   font-family: 'Playfair Display', serif;
-  font-size: 46px;
+  font-size: 39px;
   color: cadetblue;
   letter-spacing: 9.5px;
 }
@@ -123,15 +123,18 @@
 
 @keyframes hogehoge {
 	10% {
-    filter: brightness(110%);
+    filter: brightness(120%);
   }
 	15% {
-    filter: brightness(130%);
+    filter: brightness(140%);
   }
   35% {
     filter: brightness(105%);
   }
-	100% {
+	80% {
 		filter: brightness(85%);;
+  }
+  100% {
+		filter: brightness(100%);;
   }
   }
