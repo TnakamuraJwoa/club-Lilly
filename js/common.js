@@ -12,19 +12,21 @@ var navi_content_code = `
          </div>
          <div class="offcanvas-body">
            <ul class="navbar-nav">
-             <li class="nav-item">
-               <a class="nav-link" href="./index.html">Home</a>
+             <li class="nav-item" onclick="window.location.href='./index.html';" style="cursor: pointer;">
+               <a class="nav-link" href="#">Home</a>
                <h3 class="">ホーム</h3>
              </li>
-             <li class="nav-item">
-               <a class="nav-link" href="./system.html">SYSTEM</a>
+             <li class="nav-item" onclick="window.location.href='./system.html';" style="cursor: pointer;">
+               <a class="nav-link" href="#">SYSTEM</a>
                <h3 class="">システム</h3>
              </li>
-             <li class="nav-item">
+
+             <li class="nav-item" onclick="window.location.href='./photo.html';" style="cursor: pointer;">
                <a class="nav-link" href="#">PHOTO</a>
                <h3 class="">店内写真</h3>
              </li>
-             <li class="nav-item">
+
+             <li class="nav-item" onclick="window.location.href='./recruit.html';" style="cursor: pointer;">
                <a class="nav-link" href="#">CAST RECRUIT</a>
                <h3 class="">求人</h3>
              </li>
