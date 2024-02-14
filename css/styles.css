@@ -1,5 +1,53 @@
+.shop_info li p {
+    width: 65%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    margin: 5px;
+}
+
+@media screen and (min-width: 769px)
+.shop_info li p {
+    margin: 10px;
+}
+
+.shop_info h5, .shop_info h3 {
+    font-size: 16px;
+    width: 35%;
+    padding: 10px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.shop_info li {
+  display: flex;
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 769px) {
+  .shop_info li {
+      font-size: 14px;
+  }
+}
+
 .logo_class {
   height: 45px
+}
+
+@media screen and (min-width: 769px) {
+  .logo_class {
+      padding: 0 28px;
+  }
 }
 
 .my_bar_coler {
