@@ -1,3 +1,10 @@
+h2#f--shopinfo {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid #a0752a;
+}
+
 .shop_info li p {
     width: 65%;
     display: -webkit-box;
@@ -7,10 +14,12 @@
     margin: 5px;
 }
 
-@media screen and (min-width: 769px)
+@media screen and (min-width: 769px) {
 .shop_info li p {
     margin: 10px;
 }
+}
+
 
 .shop_info h5, .shop_info h3 {
     font-size: 16px;
@@ -23,10 +32,16 @@
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+.shop_info h5 {
+    justify-content: center;
+}
 }
 
 .shop_info li {

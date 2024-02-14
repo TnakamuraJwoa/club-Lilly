@@ -72,3 +72,47 @@ var fotter_content_code = `
 
 // コンテンツを追加するコンテナーにHTML文字列を直接追加
 document.getElementById('fotter-content').innerHTML = fotter_content_code;
+
+
+// JavaScriptからHTMLにコンテンツを追加する
+var fotter_content_code = `
+        <!-- shop info-->
+        <section class="bg-light py-5 border-bottom" style="background-image: url(./img/wasi.png);">
+          <div class="container col-12 col-md-8">
+            <h2 id="f--shopinfo">店舗基本情報</h2>
+            <ul class="shop_info">
+                <li>
+                    <h5>店舗名</h5>
+                    <p>CLUB Lilly (リリ)</p>
+                </li>
+                <li>
+                    <h5>業種</h5>
+                    <p>吉祥寺高級キャバクラ</p>
+                </li>
+                <li>
+                    <h5>住所</h5>
+                    <p>東京都武蔵野市吉祥寺本町壱1丁目24-5 ライトビル3F</p>
+                </li>
+                <li>
+                    <h5>アクセス</h5>
+                    <p>「吉祥寺駅」より徒歩3分</p>
+                </li>
+                <li>
+                    <h5>電話番号</h5>
+                    <p>0422-22-0778</p>
+                </li>
+                <li>
+                    <h5>営業時間</h5>
+                    <p>19:00～LAST</p>
+                </li>
+                <li>
+                    <h5>定休日</h5>
+                    <p>日曜日</p>
+                </li>
+            </ul>
+          </div>
+        </section>
+`;
+
+// コンテンツを追加するコンテナーにHTML文字列を直接追加
+document.getElementById('shop-info-content').innerHTML = fotter_content_code;
