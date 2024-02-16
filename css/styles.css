@@ -1,3 +1,26 @@
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: deeppink;
+  margin: 0.7rem;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+/* ボタンをホバーしたときのSVGのサイズ変更 */
+.btn--orange:hover .svg-icon {
+  width: 21px; /* ホバー時のSVGの幅 */
+  height: 21px; /* ホバー時のSVGの高さ */
+}
+
+#line-button > img:hover {
+  height: 40px;
+  opacity: 0.5; /* 半透明度を指定（0.5は50%の透明度を意味します） */
+}
+
 h2#f--shopinfo {
     font-size: 20px;
     font-weight: bold;
