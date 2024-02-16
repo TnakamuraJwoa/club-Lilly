@@ -21,7 +21,7 @@ var navi_content_code = `
                <h3 class="">システム</h3>
              </li>
 
-             <li class="nav-item" onclick="window.location.href='./photo.html';" style="cursor: pointer;">
+             <li class="nav-item" onclick="window.location.href='./shop.html';" style="cursor: pointer;">
                <a class="nav-link" href="#">PHOTO</a>
                <h3 class="">店内写真</h3>
              </li>

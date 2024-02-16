@@ -1,0 +1,39 @@
+ul {
+  list-style: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+  li.border_color {
+    height: 255px;
+    border-radius: 3%;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  #room01 > ul {
+    display: grid;
+    row-gap: 0px;
+    column-gap: 15px;
+    grid-template-columns: repeat(4,255px);
+    margin-top: 40px;
+  }
+}
+
+
+/* @media only screen and (max-width: 767.9px) {
+  li#room01 {
+    height: 168px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  ul {
+    display: grid;
+    row-gap: 0px;
+    column-gap: 15px;
+    grid-template-columns: repeat(4,255px);
+    margin-top: 40px;
+    list-style: none;
+  }
+} */
