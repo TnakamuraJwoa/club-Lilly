@@ -1,7 +1,7 @@
 // JavaScriptからHTMLにコンテンツを追加する
 var navi_content_code = `
      <div class="container-fluid">
-       <a class="navbar-brand" href="#"><img class="logo_class" src="./img/Lilly_Yoko_kakou-2.png" alt=""></a>
+       <a class="navbar-brand" href="./index.html"><img class="logo_class" src="./img/Lilly_Yoko_kakou-2.png" alt=""></a>
        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
        </button>
