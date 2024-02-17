@@ -94,9 +94,13 @@ h2#f--shopinfo {
 
 .title_class {
   font-family: 'Playfair Display', serif;
-  font-size: 39px;
+  font-size: 33px;
   color: cadetblue;
   letter-spacing: 9.5px;
+}
+
+.sub-title {
+  font-size: 1rem;
 }
 
 
