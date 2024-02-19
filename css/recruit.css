@@ -1,0 +1,63 @@
+.container {
+  max-width: 1056px;
+}
+
+.cmnIvyTit {
+    width: 100%;
+    height: 55px;
+    display: table;
+    margin-bottom: 20px;
+}
+
+.ivyInner {
+    display: table-cell;
+    background-size: auto 100%;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-image: url(file:///C:/work/Lilly_web_site/club-Lilly/img/cmn_tit_deco_line.png);
+}
+
+.engTit {
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.3;
+    color: #7f725d;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+.jpnTit {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 13px;
+    margin-left: 10px;
+    padding-top: 11px;
+    line-height: 1.3;
+    color: #7f725d;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+h2.cmnIvyTit::after {
+  background-image: url(file:///C:/work/Lilly_web_site/club-Lilly/img/cmn_tit_deco_line_parts.png);
+  content: "";
+      width: 73px;
+      height: 55px;
+      display: table-cell;
+      background-size: auto 100%;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+}
+
+p.text {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #7f725d;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
