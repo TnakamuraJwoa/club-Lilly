@@ -24,7 +24,7 @@
     background-size: auto 100%;
     background-position: center bottom;
     background-repeat: repeat-x;
-    background-image: url(file:///C:/work/Lilly_web_site/club-Lilly/img/cmn_tit_deco_line.png);
+    background-image: url(.././img/cmn_tit_deco_line.png);
 }
 
 .engTit {
@@ -53,7 +53,7 @@
 }
 
 h2.cmnIvyTit::after {
-  background-image: url(file:///C:/work/Lilly_web_site/club-Lilly/img/cmn_tit_deco_line_parts.png);
+  background-image: url(.././img/cmn_tit_deco_line_parts.png);
   content: "";
       width: 73px;
       height: 55px;
