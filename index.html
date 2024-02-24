@@ -83,7 +83,7 @@
                       </div>
                       <!-- ここにさらに写真のcarousel-itemを追加 -->
                     </div>
-                    <a class="carousel-control-prev" href="#photoCarousel" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#photoCarousel" role="button" data-slide="prev" id="prevButton">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="sr-only">前へ</span>
                     </a>
@@ -133,6 +133,11 @@
         // 次へボタンがクリックされたときに手動でスライドする
         $("#nextButton").click(function(){
           $("#photoCarousel").carousel("next");
+        });
+
+        // 前へボタンがクリックされたときに手動でスライドする
+        $("#prevButton").click(function(){
+          $("#photoCarousel").carousel("prev");
         });
       });
     </script>
