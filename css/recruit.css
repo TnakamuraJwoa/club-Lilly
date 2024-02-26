@@ -2,6 +2,7 @@
   width: 100%;
   height: 163px;
   object-fit: cover;
+  pointer-events: none;
 }
 
 .video-container video {
