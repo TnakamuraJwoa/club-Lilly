@@ -198,8 +198,10 @@ h2#f--shopinfo {
 }
 
 @media screen and (max-width: 575px) {
+.anim-center_logo {
   width: 15rem !important;
   height: 15rem !important;
+}
 }
 
 .anim-center_logo.fadein.is-animated {
