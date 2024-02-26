@@ -73,11 +73,17 @@ p.text {
 }
 
 .recruitInfoWrap > h3 {
-  font-size: 24px;
+  font-size: 21px;
   margin-bottom: 20px;
   text-align: left;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', HiraginoCustom, 'Hiragino Kaku Gothic ProN', YuGothic, 'Yu Gothic Medium', Meiryo, sans-serif;
+}
+
+@media screen and (max-width: 769px) {
+.recruitInfoWrap > h3 {
+  font-size: 18px !important;
+}
 }
 
 .recruitInfoWrap {
