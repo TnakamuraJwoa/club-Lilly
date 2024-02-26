@@ -13,7 +13,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Font Awesome（オプション） -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
     <!-- Bootstrap JSとPopper.js（1つのバージョンのみを含めます） -->
@@ -81,7 +81,7 @@
 </head>
 <body>
     <nav id="navi-content" class="navbar navbar-light bg-light"></nav>
-    <header class="bg-dark">
+    <header class="bg-dark" itemscope itemtype="http://schema.org/Photograph">
     </header>
     <div class="top_content_class">
         <!-- 画面サイズがスマートフォン以下の場合 -->
@@ -98,7 +98,7 @@
         <img class="anim-center_logo fadein is-animated" src=".\img\Lilly_Default_cut-remove.png" alt="ロゴの画像">
     </div>
     <!-- photo-->
-    <section class="bg-light py-5 border-bottom">
+    <section class="bg-light py-5 border-bottom" itemscope itemtype="http://schema.org/ImageGallery">
         <div class="container px-5 my-5">
             <div class="text-center mb-5">
                 <h2 class="fw-bolder title_class">PHOTO</h2>
@@ -108,13 +108,13 @@
                 <!-- phone-->
                 <div class="container mt-1 col-12 d-block d-sm-none">
                     <a href=".\img\room_photo\interior_2.jpg" data-lightbox="gallery" data-title="店内写真-1">
-                        <img class="w-100 mt-3" src=".\img\room_photo\interior_2.jpg" alt="店内写真-1">
+                        <img class="w-100 mt-3" src=".\img\room_photo\interior_2.jpg" alt="店内写真-1" itemprop="image">
                     </a>
                     <a href=".\img\room_photo\interior_3.jpg" data-lightbox="gallery" data-title="店内写真-2">
-                        <img class="w-100 mt-3" src=".\img\room_photo\interior_3.jpg" alt="店内写真-2">
+                        <img class="w-100 mt-3" src=".\img\room_photo\interior_3.jpg" alt="店内写真-2" itemprop="image">
                     </a>
                     <a href=".\img\room_photo\interior_5.jpg" data-lightbox="gallery" data-title="店内写真-3">
-                        <img class="w-100 mt-3" src=".\img\room_photo\interior_5.jpg" alt="店内写真-3">
+                        <img class="w-100 mt-3" src=".\img\room_photo\interior_5.jpg" alt="店内写真-3" itemprop="image">
                     </a>
                 </div>
                 <!-- pc -->
@@ -123,15 +123,15 @@
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <div class="d-flex">
-                          <img class="w-50 p-3" src=".\img\room_photo\interior_2.jpg" alt="店内写真-1">
-                          <img class="w-50 p-3" src=".\img\room_photo\interior_3.jpg" alt="店内写真-2">
-                          <img class="w-50 p-3" src=".\img\room_photo\interior_5.jpg" alt="店内写真-3">
+                          <img class="w-50 p-3" src=".\img\room_photo\interior_2.jpg" alt="店内写真-1" itemprop="image">
+                          <img class="w-50 p-3" src=".\img\room_photo\interior_3.jpg" alt="店内写真-2" itemprop="image">
+                          <img class="w-50 p-3" src=".\img\room_photo\interior_5.jpg" alt="店内写真-3" itemprop="image">
                         </div>
                       </div>
                       <div class="carousel-item">
                         <div class="d-flex">
-                          <img src=".\img\room_photo\interior_6.jpg" class="w-50 p-3" alt="店内写真-4">
-                          <img src=".\img\room_photo\interior_7.jpg" class="w-50 p-3" alt="店内写真-5">
+                          <img src=".\img\room_photo\interior_6.jpg" class="w-50 p-3" alt="店内写真-4" itemprop="image">
+                          <img src=".\img\room_photo\interior_7.jpg" class="w-50 p-3" alt="店内写真-5" itemprop="image">
                           <!-- ここにさらに写真の w-50 クラスを持つ img タグを追加 -->
                         </div>
                       </div>
