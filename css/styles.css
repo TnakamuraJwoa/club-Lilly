@@ -197,6 +197,11 @@ h2#f--shopinfo {
   transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 575px) {
+  width: 15rem !important;
+  height: 15rem !important;
+}
+
 .anim-center_logo.fadein.is-animated {
   animation: fadeIn 5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
 }

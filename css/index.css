@@ -1,7 +1,7 @@
 h1 {
   white-space: nowrap;
   position: absolute;
-  height: 300px !important;
+  height: 35vh !important;
   top: 97%;
   left: 50%;
   transform: translate(-46%, -50%);
