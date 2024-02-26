@@ -190,8 +190,8 @@ h2#f--shopinfo {
 .anim-center_logo {
   opacity: 0; /* 初期状態を透明に設定 */
   position: absolute;
-  width: 300px !important;
-  height: 300px !important;
+  width: 18rem !important;
+  height: 18rem !important;
   top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);
